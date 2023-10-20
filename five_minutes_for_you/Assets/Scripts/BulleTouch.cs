@@ -20,6 +20,5 @@ public class BulleTouch : MonoBehaviour
             Debug.Log("Ca a touché");
             Destroy(gameObject);
     }
-        //DestroyImmediate (bullePrefab, true);
-        //Destroy(this.bullePrefab);
+       
 }
