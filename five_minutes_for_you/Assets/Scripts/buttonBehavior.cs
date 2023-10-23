@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class buttonBehavior : MonoBehaviour
 {
-   public void PlayMiniGame()
+   public void OpenMiniGames(int Minigames)
    {
-        SceneManager.LoadSceneAsync(1);
+        string MiniGamesName = "game " + Minigames;
+        SceneManager.LoadScene(MiniGamesName);
    }
 }
