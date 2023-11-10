@@ -1,0 +1,2036 @@
+fileFormatVersion: 2
+guid: a07d641ed74bcab40be4325fcfe35a20
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mandala_2_0
+      rect:
+        serializedVersion: 2
+        x: 2887
+        y: 636
+        width: 2062
+        height: 2056
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f786adf4ee79a2459d304c18ad40e2f
+      internalID: -959701936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2912
+        width: 573
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab709481de367842a4b0d0327455bd8
+      internalID: 1971926884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_2
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 2874
+        width: 440
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f619a7681d7fed48ab53526655a754a
+      internalID: -252216994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_3
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 2847
+        width: 443
+        height: 573
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2128a6f3a9ef7419a177716f8b61e3
+      internalID: 1086335391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_4
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 2943
+        width: 577
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d705617181d6b4e428d90c4c96a3d661
+      internalID: 1176656234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_5
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 2939
+        width: 570
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c3e15d6603f1d41aa053b2c42edda8
+      internalID: 251811967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_6
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 2866
+        width: 432
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864da4f5fc23e9b4c8f910587c935ff4
+      internalID: -192303700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_7
+      rect:
+        serializedVersion: 2
+        x: 4435
+        y: 2868
+        width: 443
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bce48a5fc31b741abaa0fb48e6b37d
+      internalID: 918605243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_8
+      rect:
+        serializedVersion: 2
+        x: 5176
+        y: 2910
+        width: 574
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b8a8db7652ab34c9ac4f268a6ee18b
+      internalID: -717033213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_9
+      rect:
+        serializedVersion: 2
+        x: 5320
+        y: 1885
+        width: 755
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21020949a3351bc4aaee132dedd9eddb
+      internalID: -1997049812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_10
+      rect:
+        serializedVersion: 2
+        x: 5268
+        y: 692
+        width: 939
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24cdfb2b7759c045b35094bac95168b
+      internalID: -891222793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_11
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2345
+        width: 449
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea719ca267d65245af79606783f0a0e
+      internalID: -1949959756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_12
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 2351
+        width: 441
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47edd84237606c246bebfde781be2475
+      internalID: 817500513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_13
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1717
+        width: 334
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bef8e4fdebb10448b0b9563032a4e9
+      internalID: 1423401605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_14
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1739
+        width: 337
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97481658077a6764a964b16fb717ebc1
+      internalID: -2029539404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_15
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1022
+        width: 334
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0647f5e22a9f10e4c8ec2caa577b298a
+      internalID: 91804587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_16
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1080
+        width: 334
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4ec14ec57ace34cbceeea818002623
+      internalID: -945758645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_17
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 479
+        width: 442
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ffc5a590a052444b990db346b913ad
+      internalID: 1361226203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_18
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 50
+        width: 449
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31876256a64621e42b336065f0f562d8
+      internalID: 469727552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_19
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 477
+        width: 363
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c81fa1884356e428b6a145bfb434af
+      internalID: -2137975634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_20
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 43
+        width: 460
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3442c81c24e01ab4d9e06043d8915528
+      internalID: 1643118529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_21
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 2231
+        width: 344
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e607ae5ede45fa44a34663bda6ab3c7
+      internalID: 1451657964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_22
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1718
+        width: 418
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd761bd4794565448438e082ebdc179
+      internalID: -341104788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_23
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 1070
+        width: 333
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d280e6bc4bbf2d45b8ab0e0d3c2ee08
+      internalID: -1108627708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_24
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 552
+        width: 363
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8deba1a3a84374d9d4b4d30a4e5392
+      internalID: -1528036304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_25
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 67
+        width: 461
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338561d632dbde4408ecf0cd68ae8b1a
+      internalID: -660211374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_26
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 2335
+        width: 415
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cc9736d6b9f554baada6fe6f01c18f
+      internalID: 794317263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_27
+      rect:
+        serializedVersion: 2
+        x: 1986
+        y: 1734
+        width: 322
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f38392226e93574ba5bf21f77675701
+      internalID: -613232774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_28
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 1329
+        width: 356
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727bc3eef967ba1419cd2123dabe417a
+      internalID: 15960684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_29
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 908
+        width: 319
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18905c34751a37b42a6c89708a56ec22
+      internalID: -1130290472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_30
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 478
+        width: 312
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd553442b87c2e4abda7d3fd7692343
+      internalID: 1181282156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_31
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 81
+        width: 325
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d588252235796d24cbad8d62a771ebc1
+      internalID: -115816900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_32
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 30
+        width: 327
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f80247910bcefb4e94e6b864d8aa664
+      internalID: 938973385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_33
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 1705
+        width: 317
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516f946a480a73e47978faf72946dc25
+      internalID: -416533796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_34
+      rect:
+        serializedVersion: 2
+        x: 2442
+        y: 1293
+        width: 363
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc956a61c0626348b11eb18c79b4d7e
+      internalID: -1769691952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_35
+      rect:
+        serializedVersion: 2
+        x: 2547
+        y: 1020
+        width: 185
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f295a280f0bbf7d4c856949cd731154f
+      internalID: -319164211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_36
+      rect:
+        serializedVersion: 2
+        x: 2578
+        y: 764
+        width: 178
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80c5c748a9162041b7d0d5508026b5f
+      internalID: 1768550540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_37
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 506
+        width: 148
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd65f49b73930745a31dbad2e756cf9
+      internalID: 1734024423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_38
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 245
+        width: 143
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a584449ec462f794f9530e88c48af5ed
+      internalID: 862573769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_39
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 48
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a01a68764d60f5429b93f70eb4a2017
+      internalID: 500628390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_40
+      rect:
+        serializedVersion: 2
+        x: 2939
+        y: 68
+        width: 148
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc45ce96049e53409317422b7ddf506
+      internalID: -122779548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_41
+      rect:
+        serializedVersion: 2
+        x: 3634
+        y: 136
+        width: 157
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd1a286f0a33d949ba7a617918629c8
+      internalID: -1284836178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_42
+      rect:
+        serializedVersion: 2
+        x: 3954
+        y: 154
+        width: 180
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77691b93bc043d448a6cae147840879c
+      internalID: 816612943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_43
+      rect:
+        serializedVersion: 2
+        x: 4245
+        y: 152
+        width: 149
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3643e0a97a6646c4e92713053ab5e912
+      internalID: -33013371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_44
+      rect:
+        serializedVersion: 2
+        x: 4536
+        y: 154
+        width: 149
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8287fb2b29dba464eb3080c84e6286fb
+      internalID: 370822040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_45
+      rect:
+        serializedVersion: 2
+        x: 4772
+        y: 134
+        width: 142
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fb81c633e48c14fad28370c8b19e6a
+      internalID: -362134080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_46
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 134
+        width: 142
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7efb43843475f0408eaf00c161130ff
+      internalID: -723198686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_47
+      rect:
+        serializedVersion: 2
+        x: 5237
+        y: 133
+        width: 147
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c4b41d81a48224ab0b626af21c47b3
+      internalID: -569205234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_48
+      rect:
+        serializedVersion: 2
+        x: 5475
+        y: 120
+        width: 148
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4344287d089824b8045b60b267e8f0
+      internalID: -2108302417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_49
+      rect:
+        serializedVersion: 2
+        x: 5694
+        y: 118
+        width: 147
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853d250a4bdb20d49ac63bbff9ebe3ff
+      internalID: -685911186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_50
+      rect:
+        serializedVersion: 2
+        x: 5894
+        y: 118
+        width: 138
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fa7ea809779e4409dc7082ede70927
+      internalID: -1475949128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_51
+      rect:
+        serializedVersion: 2
+        x: 6203
+        y: 121
+        width: 155
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369a69bc47fbb77459b2405a25855ec8
+      internalID: -846654456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_52
+      rect:
+        serializedVersion: 2
+        x: 6494
+        y: 91
+        width: 217
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20cdc2cbc7b07043ae1c43402631fc9
+      internalID: 46617694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_53
+      rect:
+        serializedVersion: 2
+        x: 6823
+        y: 124
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aefbc322ce39664a84637443c1856f0
+      internalID: 525000406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_54
+      rect:
+        serializedVersion: 2
+        x: 6988
+        y: 132
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9820f5f08c714604c98e0fcabd899601
+      internalID: 1178374298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_55
+      rect:
+        serializedVersion: 2
+        x: 7126
+        y: 133
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0563da0de79414f819540a6b492a87
+      internalID: 194035343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_56
+      rect:
+        serializedVersion: 2
+        x: 6806
+        y: 308
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ee0902322f2a24fac6c7f7999be4bd
+      internalID: -302765434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_57
+      rect:
+        serializedVersion: 2
+        x: 6961
+        y: 316
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006778ea35a3651478cda28603c7929f
+      internalID: -1437028800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_58
+      rect:
+        serializedVersion: 2
+        x: 7103
+        y: 304
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673ee21691ac59b4c951a0ba2f3bf3e9
+      internalID: -790944503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_59
+      rect:
+        serializedVersion: 2
+        x: 6800
+        y: 498
+        width: 67
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb51619a0261e24087b17dc2b154706
+      internalID: 1290041704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_60
+      rect:
+        serializedVersion: 2
+        x: 6959
+        y: 494
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea5cf3617d3879489a6040688cea41e
+      internalID: 1138938539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_61
+      rect:
+        serializedVersion: 2
+        x: 6762
+        y: 872
+        width: 107
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342e98ecef1d3484486c32ad4aa979f2
+      internalID: -453579159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_62
+      rect:
+        serializedVersion: 2
+        x: 6513
+        y: 959
+        width: 98
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a7e470e69f745418844da1c1a76213
+      internalID: 184930190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_63
+      rect:
+        serializedVersion: 2
+        x: 6424
+        y: 1215
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c73662ff5355b4aa3d60e47ee23db9
+      internalID: 328107531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_64
+      rect:
+        serializedVersion: 2
+        x: 6510
+        y: 1468
+        width: 110
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4a0b5f424de0742b048e339bbae112
+      internalID: -501914087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_65
+      rect:
+        serializedVersion: 2
+        x: 6763
+        y: 1549
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623a65e4d7b6ce04da4a120f363df92b
+      internalID: -999969807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_66
+      rect:
+        serializedVersion: 2
+        x: 7018
+        y: 1464
+        width: 102
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74c95925b81768449998e0a990ed8f7
+      internalID: -17868341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_67
+      rect:
+        serializedVersion: 2
+        x: 7095
+        y: 1210
+        width: 113
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3028a24b94ce134438718d3383a7bac4
+      internalID: 1260017961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_68
+      rect:
+        serializedVersion: 2
+        x: 7018
+        y: 965
+        width: 105
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ccdaf4e12432c4cb1cc8d0a0f434f8
+      internalID: -2086622380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_69
+      rect:
+        serializedVersion: 2
+        x: 6758
+        y: 3189
+        width: 52
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545b15dc9404e3949b513d0933f3d7a3
+      internalID: -652939410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_70
+      rect:
+        serializedVersion: 2
+        x: 6688
+        y: 3068
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912a96935e29e704daf1a25962b86638
+      internalID: -651123953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_71
+      rect:
+        serializedVersion: 2
+        x: 6631
+        y: 2952
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee761d88642bc0f44aa79f98c4d84ebf
+      internalID: 254485096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_72
+      rect:
+        serializedVersion: 2
+        x: 6589
+        y: 2819
+        width: 77
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1699e2ef294e64e858b930173ec16c
+      internalID: 160413250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_73
+      rect:
+        serializedVersion: 2
+        x: 6580
+        y: 2694
+        width: 76
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a23617fd6acee449df26816b788314
+      internalID: -1440779722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_74
+      rect:
+        serializedVersion: 2
+        x: 6558
+        y: 2484
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b2788dbdaf4934f957ba5c8829fd80
+      internalID: 2044070750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_75
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 2338
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af65786a6d0f0d4786fd65659b8e747
+      internalID: 826131057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_76
+      rect:
+        serializedVersion: 2
+        x: 6687
+        y: 2247
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b350c7d4af10cc4ca447ead459d1864
+      internalID: -599448917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_77
+      rect:
+        serializedVersion: 2
+        x: 6787
+        y: 2156
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053437980e3d2f34e99a3c16ea715f38
+      internalID: 610525560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_78
+      rect:
+        serializedVersion: 2
+        x: 6893
+        y: 2271
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb394815a72ba1340b73826d7b190959
+      internalID: 1138360586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_79
+      rect:
+        serializedVersion: 2
+        x: 6954
+        y: 2379
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffbbc07b2248bc4997360d4d9b21cfc
+      internalID: 627207699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_80
+      rect:
+        serializedVersion: 2
+        x: 6995
+        y: 2522
+        width: 76
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890f4ea71c38f424a90ec76d65bddb93
+      internalID: -108035099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_81
+      rect:
+        serializedVersion: 2
+        x: 6931
+        y: 2701
+        width: 78
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232c4486678c9a141afb2a4ea7fed4e1
+      internalID: -637360013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_82
+      rect:
+        serializedVersion: 2
+        x: 6917
+        y: 2830
+        width: 74
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba37537d468cc0e47a9ab1ee6bf6d007
+      internalID: 452810622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_83
+      rect:
+        serializedVersion: 2
+        x: 6884
+        y: 2957
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55e43c318bf16a419e9b76872c5f6ae
+      internalID: -459509921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mandala_2_84
+      rect:
+        serializedVersion: 2
+        x: 6824
+        y: 3073
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db84ab2cdaf28c74da7046d9784242ff
+      internalID: -1926342926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mandala_2_0: -959701936
+      mandala_2_1: 1698988871
+      mandala_2_10: -1997049812
+      mandala_2_11: -891222793
+      mandala_2_12: -1949959756
+      mandala_2_13: 817500513
+      mandala_2_14: 1423401605
+      mandala_2_15: -2029539404
+      mandala_2_16: 91804587
+      mandala_2_17: -945758645
+      mandala_2_18: 1361226203
+      mandala_2_19: 469727552
+      mandala_2_2: 1971926884
+      mandala_2_20: -2137975634
+      mandala_2_21: 1643118529
+      mandala_2_22: 1451657964
+      mandala_2_23: -341104788
+      mandala_2_24: -1108627708
+      mandala_2_25: -1528036304
+      mandala_2_26: -660211374
+      mandala_2_27: 794317263
+      mandala_2_28: -613232774
+      mandala_2_29: 15960684
+      mandala_2_3: -252216994
+      mandala_2_30: -1130290472
+      mandala_2_31: 1181282156
+      mandala_2_32: -115816900
+      mandala_2_33: 938973385
+      mandala_2_34: -416533796
+      mandala_2_35: -1769691952
+      mandala_2_36: -319164211
+      mandala_2_37: 1768550540
+      mandala_2_38: 1734024423
+      mandala_2_39: 862573769
+      mandala_2_4: 1086335391
+      mandala_2_40: 500628390
+      mandala_2_41: -122779548
+      mandala_2_42: -1284836178
+      mandala_2_43: 816612943
+      mandala_2_44: -33013371
+      mandala_2_45: 370822040
+      mandala_2_46: -362134080
+      mandala_2_47: -723198686
+      mandala_2_48: -569205234
+      mandala_2_49: -2108302417
+      mandala_2_5: 1176656234
+      mandala_2_50: -685911186
+      mandala_2_51: -1475949128
+      mandala_2_52: -846654456
+      mandala_2_53: 46617694
+      mandala_2_54: 525000406
+      mandala_2_55: 1178374298
+      mandala_2_56: 194035343
+      mandala_2_57: -302765434
+      mandala_2_58: -1437028800
+      mandala_2_59: -790944503
+      mandala_2_6: 251811967
+      mandala_2_60: 1290041704
+      mandala_2_61: 1138938539
+      mandala_2_62: -453579159
+      mandala_2_63: 184930190
+      mandala_2_64: 328107531
+      mandala_2_65: -501914087
+      mandala_2_66: -999969807
+      mandala_2_67: -17868341
+      mandala_2_68: 1260017961
+      mandala_2_69: -2086622380
+      mandala_2_7: -192303700
+      mandala_2_70: -652939410
+      mandala_2_71: -651123953
+      mandala_2_72: 254485096
+      mandala_2_73: 160413250
+      mandala_2_74: -1440779722
+      mandala_2_75: 2044070750
+      mandala_2_76: 826131057
+      mandala_2_77: -599448917
+      mandala_2_78: 610525560
+      mandala_2_79: 1138360586
+      mandala_2_8: 918605243
+      mandala_2_80: 627207699
+      mandala_2_81: -108035099
+      mandala_2_82: -637360013
+      mandala_2_83: 452810622
+      mandala_2_84: -459509921
+      mandala_2_9: -717033213
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
