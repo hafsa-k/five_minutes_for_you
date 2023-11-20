@@ -4,21 +4,15 @@ using UnityEngine;
 
 public class BulleTouch : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public static int compteur = 0; // Compteur statique pour le nombre de bulles détruites
 
-    // Update is called once per frame
-    void Update()
+    void OnMouseDown()
     {
-        
-    }
+        Debug.Log("La bulle a été touchée");
+        Destroy(gameObject);
 
-    void OnMouseDown(){
-            Debug.Log("Ca a touché");
-            Destroy(gameObject);
+        // Si la bulle est détruite, incrémentez le compteur statique
+        compteur++;
+        Debug.Log("Compteur : " + compteur);
     }
-       
 }

@@ -42,6 +42,7 @@ public class BubbleBehavior : MonoBehaviour
 
             // Incrémenter le nombre de bulles actuel.
             nombreBullesActuel++;
+            
         }
 
         // Déplacer toutes les bulles existantes vers le haut.
