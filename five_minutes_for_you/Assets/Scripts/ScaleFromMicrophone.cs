@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ScaleFromMicrophone : MonoBehaviour
 {
+    public Animator animator;
     public AudioSource source; 
     public Vector3 minScale; 
     public Vector3 maxScale; 
@@ -19,10 +20,15 @@ public class ScaleFromMicrophone : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+     void Update()
     {
         float loudness = detector.GetLoudnessFromMicrophone() * loudnessSensibility;
-        if(loudness < threshold) loudness = 0;
-        transform.localScale = Vector3.Lerp(minScale, maxScale, loudness);
+        if (loudness >= threshold) {
+            // Si le son est supérieur ou égal au seuil, activer l'animation
+            animator.SetBool("AudioOn", true);
+        } else {
+            // Sinon, désactiver l'animation
+            animator.SetBool("AudioOn", false);
+        }
     }
 }
