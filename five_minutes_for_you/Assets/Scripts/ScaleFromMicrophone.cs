@@ -41,7 +41,7 @@ public class ScaleFromMicrophone : MonoBehaviour
             animator.SetBool("AudioOn", false);
         }
 
-        if (compteur >= 1500) AfficherMessage();;
+        if (compteur >= 1500) AfficherMessage();
     }
 
      void AfficherMessage()
