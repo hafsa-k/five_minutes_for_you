@@ -2,44 +2,68 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RedCicleBehavior : MonoBehaviour
+public class RedCircleBehavior : MonoBehaviour
 {
-    public GameObject cercleRougePrefab; // Référence à l'objet cercle rouge que vous voulez afficher
-    public List<Transform> emplacements = new List<Transform>(); // Liste des emplacements où le cercle peut apparaître
-    public int nombreApparitions = 5; // Nombre de cercles à faire apparaître
+    public GameObject circlePrefab;
+    public List<Transform> spawnPoints = new List<Transform>();
+    public int numberOfCircles = 5;
+    public GameObject messageUI;
+
+    private int remainingCircles;
 
     void Start()
     {
-        if (cercleRougePrefab != null && emplacements.Count > 0)
+        messageUI.SetActive(false);
+        remainingCircles = numberOfCircles;
+
+        if (circlePrefab != null && spawnPoints.Count > 0 && messageUI != null)
         {
-            int nombreEmplacements = emplacements.Count;
+            List<Transform> usedSpawnPoints = new List<Transform>();
 
-            // Utilisation d'une liste temporaire pour éviter la répétition des emplacements
-            List<Transform> emplacementsUtilises = new List<Transform>();
-
-            // Faire apparaître le nombre défini de cercles rouges
-            for (int i = 0; i < nombreApparitions; i++)
+            for (int i = 0; i < numberOfCircles; i++)
             {
-                int indexEmplacement = Random.Range(0, nombreEmplacements);
+                int spawnIndex = Random.Range(0, spawnPoints.Count);
 
-                // S'assurer que l'emplacement n'a pas été utilisé précédemment
-                while (emplacementsUtilises.Contains(emplacements[indexEmplacement]))
+                while (usedSpawnPoints.Contains(spawnPoints[spawnIndex]))
                 {
-                    indexEmplacement = Random.Range(0, nombreEmplacements);
+                    spawnIndex = Random.Range(0, spawnPoints.Count);
                 }
 
-                emplacementsUtilises.Add(emplacements[indexEmplacement]);
+                usedSpawnPoints.Add(spawnPoints[spawnIndex]);
 
-                // Instancier le cercle rouge à l'emplacement sélectionné
-                Instantiate(cercleRougePrefab, emplacements[indexEmplacement].position, Quaternion.identity);
+                GameObject newCircle = Instantiate(circlePrefab, spawnPoints[spawnIndex].position, Quaternion.identity);
+                newCircle.AddComponent<DestroyOnClick>();
             }
-            
-             
         }
         else
         {
-            Debug.LogError("Veuillez assigner le prefab du cercle rouge et définir les emplacements.");
+            Debug.LogError("Veuillez assigner le prefab du cercle, définir les points d'apparition et le GameObject messageUI.");
         }
     }
-    
+
+    public class DestroyOnClick : MonoBehaviour
+    {
+        private RedCircleBehavior redCircleBehavior;
+
+        private void Start()
+        {
+            redCircleBehavior = GameObject.FindObjectOfType<RedCircleBehavior>();
+        }
+
+        private void OnMouseDown()
+        {
+            redCircleBehavior.DecreaseCircleCount();
+            Destroy(gameObject);
+        }
+    }
+
+    public void DecreaseCircleCount()
+    {
+        remainingCircles--;
+
+        if (remainingCircles <= 0)
+        {
+            messageUI.SetActive(true);
+        }
+    }
 }

@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -405.1, y: -388}
+  m_AnchoredPosition: {x: -194.2, y: -133.4}
   m_SizeDelta: {x: 161.79999, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &2383094313183611568
@@ -67,15 +67,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Massez les zones indiqu\xE9es par les cercles rouges"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 50479fdda8344469c9e7b271656810c7, type: 2}
+  m_sharedMaterial: {fileID: 3911924707041610945, guid: 50479fdda8344469c9e7b271656810c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4289091429
+  m_fontColor: {r: 0.39607844, g: 0.34117648, b: 0.6509804, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -92,8 +92,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 76.3
-  m_fontSizeBase: 76.3
+  m_fontSize: 116.8
+  m_fontSizeBase: 116.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

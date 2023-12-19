@@ -98,6 +98,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee6aec2f5aed04c4ebccbc09d5d2be2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  messageUI: {fileID: 0}
+  boutonRetour: {fileID: 0}
 --- !u!58 &3122065509196727455
 CircleCollider2D:
   m_ObjectHideFlags: 0

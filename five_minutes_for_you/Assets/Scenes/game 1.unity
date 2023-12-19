@@ -347,7 +347,7 @@ MonoBehaviour:
   nombreMaxBulles: 10
   delaiMin: 0.5
   delaiMax: 1.5
-  vitesseDeplacement: 1
+  vitesseDeplacement: 2
 --- !u!4 &813908552
 Transform:
   m_ObjectHideFlags: 0
@@ -547,6 +547,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1064917488418162791 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3875024181090583018, guid: e58029d6c323c41f3ad990f5cbc0d857, type: 3}
+  m_PrefabInstance: {fileID: 1321935172222598104}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 667e664fce37ae94b8e5c4162de984c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1321935172222598104
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -555,6 +566,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3669913242777072244, guid: e58029d6c323c41f3ad990f5cbc0d857, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1064917488418162791}
+    - target: {fileID: 3669913242777072244, guid: e58029d6c323c41f3ad990f5cbc0d857, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenMiniGames
+      objectReference: {fileID: 0}
     - target: {fileID: 5406458105228572124, guid: e58029d6c323c41f3ad990f5cbc0d857, type: 3}
       propertyPath: m_Name
       value: goBack

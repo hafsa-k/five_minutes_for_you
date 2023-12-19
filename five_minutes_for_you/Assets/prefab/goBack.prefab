@@ -67,8 +67,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Quitter
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 50479fdda8344469c9e7b271656810c7, type: 2}
+  m_sharedMaterial: {fileID: 3911924707041610945, guid: 50479fdda8344469c9e7b271656810c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -249,6 +249,7 @@ GameObject:
   - component: {fileID: 1405060674546959379}
   - component: {fileID: 4254377004792890460}
   - component: {fileID: 3669913242777072244}
+  - component: {fileID: 3875024181090583018}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -273,7 +274,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -309.8}
+  m_AnchoredPosition: {x: 0, y: 5.3}
   m_SizeDelta: {x: 85, y: 21.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1405060674546959379
@@ -357,7 +358,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4254377004792890460}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3875024181090583018}
+        m_TargetAssemblyTypeName: buttonBehavior, Assembly-CSharp
+        m_MethodName: OpenMiniGames
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3875024181090583018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3597240487517874664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 667e664fce37ae94b8e5c4162de984c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5406458105228572124
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,7 +493,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 195.1}
+  m_AnchoredPosition: {x: 0, y: 334.2}
   m_SizeDelta: {x: 644.3, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4435783498681779100
@@ -501,15 +526,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Il est temps de revenir en arri\xE9re"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 50479fdda8344469c9e7b271656810c7, type: 2}
+  m_sharedMaterial: {fileID: 3911924707041610945, guid: 50479fdda8344469c9e7b271656810c7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4289091429
+  m_fontColor: {r: 0.39607847, g: 0.34117648, b: 0.6509804, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
